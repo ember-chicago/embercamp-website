@@ -1,0 +1,44 @@
+.sponsor-list {
+  display: flex;
+  list-style: none outside;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100% !important;
+}
+
+.sponsor-list:first-of-type {
+  align-items: flex-end;
+}
+
+.sponsor-list > li {
+  margin: 1rem;
+}
+
+.sponsor-list > li > a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.sponsor-list > li > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 50rem) {
+  .sponsor-list {
+    max-width: 60rem !important;
+  }
+  .sponsor-list:first-of-type {
+    margin-top: -1.5rem;
+  }
+  .sponsor-list > li {
+    flex-basis: calc(20% - 4rem);
+    margin: 2rem;
+  }
+}

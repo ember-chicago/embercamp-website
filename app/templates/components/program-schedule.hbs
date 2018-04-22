@@ -1,0 +1,22 @@
+<table aria-labelledby='program-schedule-overview' id="schedule">
+  <thead>
+  <tr>
+    <th width="140">TIME</th>
+    <th width="400">CONTENT</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each @events as |event|}}
+    <tr class="{{event.type}}">
+      <td>{{event.startTime}} - {{event.endTime}}</td>
+      <td>
+        {{#if event.target}}
+          <a href="{{event.target}}">{{event.title}}</a>
+        {{else}}
+          {{event.title}}
+        {{/if}}
+      </td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

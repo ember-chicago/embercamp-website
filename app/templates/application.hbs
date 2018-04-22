@@ -1,5 +1,18 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<header>
+  <img role="heading" src="zoey-and-tom.png" width="180" height="72" alt="Ember Camp Chicago 2018 Logo">
+</header>
+<main>
+  {{outlet}}
+  {{buy-tickets}}
+  {{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
+</main>
+<footer>
+  <nav>
+    <!--todo: footer nav contents-->
+    <a href="http://emberwomen.com/">Women: Get Involved</a>
+    <a href="http://emberconf.com/code-of-conduct.html">Code of Conduct</a>
+    <a href="mailto:events@tilde.io">Get in Touch</a>
+    <a href="http://tilde.io/">© Copyright Tilde Inc. 2017</a>
+    <a href="http://embercamp.com/2017/">EmberCamp London 2017</a>
+  </nav>
+</footer>

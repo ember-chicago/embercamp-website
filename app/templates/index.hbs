@@ -1,0 +1,25 @@
+<section>
+  <p>For the first year ever in Chicago, we’ll be hosting 150+ of the world’s top Ember
+    developers for a full day of Ember talks by Core Team and Community
+    members. If you’re looking to make new Ember friends, get the scoop
+    on what's coming next, or to hire Ember talent, EmberCamp London is
+    the place to be.</p>
+  <p><strong>Join us in September 2018.</strong></p>
+</section>
+
+<section>
+  <h2 class="ribbon ribbon--left ribbon--centered">Speakers</h2>
+  <ul class="speaker-list">
+    {{#each model.speakers as |speaker|}}
+      <li>
+        {{speaker-details speaker=speaker}}
+      </li>
+    {{/each}}
+  </ul>
+</section>
+
+<section>
+  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Schedule</h2>
+  {{program-schedule events=model.scheduleItems}}
+  <h2>{{link-to 'See full program' 'program' classNames='program-link'}}</h2>
+</section>

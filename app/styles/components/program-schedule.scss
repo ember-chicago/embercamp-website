@@ -1,0 +1,31 @@
+#schedule {
+  margin: 35px auto 0;
+}
+
+#schedule thead {
+  background-color: black;
+  color: white;
+}
+
+#schedule tr {
+  line-height: 30px;
+}
+
+#schedule tr:nth-child(even) {
+  background-color: #C8C8C8;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+}
+
+#schedule a {
+  color: inherit;
+}
+
+#schedule a:hover, #schedule a:visited,
+#schedule a:active, #schedule a:focus {
+  color: #0059a2;
+}

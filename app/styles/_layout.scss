@@ -1,0 +1,215 @@
+@import 'reset';
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background: #003764;
+  padding: 1rem;
+  color: white;
+}
+
+header > img, header .logo > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
+}
+
+main {
+  background: white;
+}
+
+section {
+  padding: 1rem;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  background: #003764;
+  color: white;
+  & > nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    & > a {
+      display: block;
+      padding: 0.5rem;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 40rem) {
+  .ribbon {
+    display: inline-block;
+    border-bottom: 3px solid #ffce00;
+    padding-left: 1rem;
+    margin-left: -1rem;
+  }
+
+  .sponsor-list:first-of-type {
+    margin-top: -2rem;
+  }
+  .sponsor-list > li {
+    flex-basis: calc(50% - 2rem);
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 40rem) {
+  footer > nav {
+    flex-direction: row;
+    font-size: 0.75rem;
+  }
+
+  section {
+    border-bottom: 0;
+  }
+
+  .pull-up {
+    margin-top: -2.75rem;
+  }
+  .pull-up--more {
+    margin-top: -3.25rem;
+  }
+
+  .ribbon {
+    position: relative;
+    background: #ffce00;
+    text-align: left;
+    color: #003764;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 2.5rem;
+    padding: 0 2rem;
+  }
+  .ribbon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-top: 2.5rem solid #ffce00;
+    border-left: 2.5rem solid transparent;
+  }
+  .ribbon:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 2.5rem solid #ffce00;
+    border-right: 2.5rem solid transparent;
+  }
+  .ribbon--flipped:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 2.5rem solid #ffce00;
+    border-left: 2.5rem solid transparent;
+    border-top: none;
+  }
+  .ribbon--centered {
+    text-align: center;
+  }
+  .ribbon--skinny {
+    font-size: 0.8rem;
+  }
+  .ribbon--left:before {
+    content: '';
+    position: absolute;
+    background: #ffce00;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 1000px;
+  }
+  .ribbon--right:after {
+    content: '';
+    position: absolute;
+    background: #ffce00;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 1000px;
+  }
+
+  .sponsor-list > li {
+    flex-basis: calc(33.333% - 2rem);
+    margin: 1rem;
+  }
+
+  .prospectus {
+    text-align: center;
+  }
+}
+
+.cta {
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: block;
+  padding: 1rem;
+  border-radius: 4px;
+  background: #00a885;
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-weight: bold;
+
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  opacity: 0.75;
+}
+
+section > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30rem;
+}
+
+section > img {
+  display: block;
+  margin: 0 auto;
+}
+
+section.photo {
+  padding: 0;
+  border: 0;
+  margin-top: -1px;
+}
+
+section.photo > img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
