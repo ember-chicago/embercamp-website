@@ -7,20 +7,8 @@ module('Integration | Component | speaker-details', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.set('myAction', function(val) { ... });
-
     await render(hbs`{{speaker-details}}`);
 
     assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      {{#speaker-details}}
-        template block text
-      {{/speaker-details}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });

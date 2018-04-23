@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
-import { SPEAKERS } from "../constansts/speakers";
-import { SCHEDULE_ITEMS } from "../constansts/schedule";
+import { SPEAKERS } from "../constants/speakers";
+import { SCHEDULE_ITEMS } from "../constants/schedule";
 
 export default Route.extend({
   model() {
