@@ -1,0 +1,13 @@
+{{program-schedule events=model.scheduleEvents}}
+<section id="program">
+  <h2 class="ribbon ribbon--left ribbon--centered">Our Program</h2>
+  <ul class="program-list">
+    {{#each model.sessions as |session|}}
+      {{#if session.speakerName}}
+        <li class="program-list-item">
+          {{session-details session=session}}
+        </li>
+      {{/if}}
+    {{/each}}
+  </ul>
+</section>

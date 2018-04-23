@@ -1,0 +1,24 @@
+<section class="pull-up--more">
+  <h3 class="ribbon ribbon--left ribbon--centered ribbon--skinny">Premier Sponsors</h3>
+  <ul class="sponsor-list">
+    {{#each @premierSponsors as |sponsor|}}
+      <li>
+        {{sponsor-details sponsor=sponsor}}
+      </li>
+    {{/each}}
+  </ul>
+
+  <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny">Supporting Sponsors</h3>
+  <ul class="sponsor-list">
+    {{#each @supportingSponsors as |sponsor|}}
+      <li>
+        {{sponsor-details sponsor=sponsor}}
+      </li>
+    {{/each}}
+  </ul>
+  <h2 class="ribbon ribbon--left ribbon--centered">Want to sponsor EmberCamp Chicago?</h2>
+  <p class="prospectus">
+    Seeking exposure to top Chicago Ember Talent?<br>
+    <a target="_blank" href="{{prospectusFileUrl}}">Check out the Sponsorship Prospectus</a>
+  </p>
+</section>

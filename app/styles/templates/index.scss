@@ -1,0 +1,46 @@
+.speaker-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none outside;
+  max-width: 80% !important;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.speaker-list li {
+  margin: 1rem;
+  width: calc(50% - 2rem);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.speaker-list img {
+  display: block;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.speaker-list span {
+  font-weight: bold;
+}
+
+.speaker-list a {
+  display: block;
+}
+
+.program-link {
+  text-align: center;
+  color: #0059a2;
+  display: block;
+}
+
+@media (min-width: 50rem) {
+  .speaker-list li {
+    margin: 1rem;
+    width: calc(25% - 2rem);
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}

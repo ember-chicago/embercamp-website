@@ -1,0 +1,7 @@
+{{#with @speaker as |speaker|}}
+  <img src="{{speaker.avatar}}" alt="{{speaker.name}}">
+  <span>{{speaker.name}}</span>
+  {{#if speaker.twitterHandle}}
+    <a href="https://twitter.com/{{speaker.twitterHandle}}">@{{speaker.twitterHandle}}</a>
+  {{/if}}
+{{/with}}
