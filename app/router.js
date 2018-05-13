@@ -8,7 +8,6 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('/');
-  this.route('about');
   this.route('program');
 });
 
