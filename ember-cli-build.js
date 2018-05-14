@@ -8,7 +8,6 @@ module.exports = function(defaults) {
     prember: {
       urls: [
         '/',
-        '/about',
         '/program'
       ]
     },

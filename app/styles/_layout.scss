@@ -1,3 +1,4 @@
+
 @import 'reset';
 
 html {
@@ -55,7 +56,7 @@ footer {
 @media (max-width: 40rem) {
   .ribbon {
     display: inline-block;
-    border-bottom: 3px solid #ffce00;
+    border-bottom: 3px solid $brand-color;
     padding-left: 1rem;
     margin-left: -1rem;
   }
@@ -88,9 +89,9 @@ footer {
 
   .ribbon {
     position: relative;
-    background: #ffce00;
+    background: $brand-color;
     text-align: left;
-    color: #003764;
+    color: $accent-color;
     text-transform: uppercase;
     letter-spacing: .3em;
     font-weight: 600;
@@ -105,7 +106,7 @@ footer {
     right: 100%;
     width: 0;
     height: 0;
-    border-top: 2.5rem solid #ffce00;
+    border-top: 2.5rem solid $brand-color;
     border-left: 2.5rem solid transparent;
   }
   .ribbon:after {
@@ -115,7 +116,7 @@ footer {
     left: 100%;
     width: 0;
     height: 0;
-    border-top: 2.5rem solid #ffce00;
+    border-top: 2.5rem solid $brand-color;
     border-right: 2.5rem solid transparent;
   }
   .ribbon--flipped:before {
@@ -125,7 +126,7 @@ footer {
     right: 100%;
     width: 0;
     height: 0;
-    border-bottom: 2.5rem solid #ffce00;
+    border-bottom: 2.5rem solid $brand-color;
     border-left: 2.5rem solid transparent;
     border-top: none;
   }
@@ -138,7 +139,7 @@ footer {
   .ribbon--left:before {
     content: '';
     position: absolute;
-    background: #ffce00;
+    background: $brand-color;
     top: 0;
     bottom: 0;
     right: 100%;
@@ -147,7 +148,7 @@ footer {
   .ribbon--right:after {
     content: '';
     position: absolute;
-    background: #ffce00;
+    background: $brand-color;
     top: 0;
     bottom: 0;
     left: 100%;
