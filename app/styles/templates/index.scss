@@ -38,6 +38,22 @@
   display: block;
 }
 
+.speakers-placeholder{
+  max-width: 100%;
+}
+
+.index-images{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  & img{
+    height:18rem;
+    margin: 2rem;
+    width:auto;
+  }
+}
+
 @media (min-width: 50rem) {
   .speaker-list li {
     margin: 1rem;

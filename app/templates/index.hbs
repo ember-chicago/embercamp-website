@@ -1,25 +1,39 @@
-<section>
+<section class="index-summary">
+  <p><strong>Join us on Friday, September 21st, 2018.</strong></p>
   <p>For the first year ever in Chicago, we’ll be hosting 150+ of the world’s top Ember
     developers for a full day of Ember talks by Core Team and Community
     members. If you’re looking to make new Ember friends, get the scoop
-    on what's coming next, or to hire Ember talent, EmberCamp London is
+    on what's coming next, or to hire Ember talent, EmberCamp Chicago is
     the place to be.</p>
-  <p><strong>Join us in September 2018.</strong></p>
+  <p class="index-summary-ticket-message"><strong>Check back soon to buy tickets.</strong></p>
 </section>
+
+<div class="index-images">
+    <img class="index-summary-image" src="chase-tower-skyline.jpg" alt="View of Lake Michigan from Chase Tower">
+    <img class="index-summary-image" src="chase-tower-building.jpg" alt="View of Chase Tower from sidewalk">
+    <img class="index-summary-image" src="chase-tower-skyline-2.jpg" alt="View of Chicago Skyline from Chase Tower">
+</div>
 
 <section>
   <h2 class="ribbon ribbon--left ribbon--centered">Speakers</h2>
-  <ul class="speaker-list">
-    {{#each model.speakers as |speaker|}}
-      <li>
-        {{speaker-details speaker=speaker}}
-      </li>
-    {{/each}}
-  </ul>
+  <p>Interested in speaking at EmberCamp Chicago? The <a href="https://cfp.emberconf.com/events/embercamp-chicago-2018">Call For Papers</a> opens soon.</p>
+  <img class="speakers-placeholder" src="zoey-and-tom.png" alt="Zoey and Tomster Waving">
+  {{!--
+    <ul class="speaker-list">
+      {{#each model.speakers as |speaker|}}
+        <li>
+          {{speaker-details speaker=speaker}}
+        </li>
+      {{/each}}
+    </ul>
+  --}}
+
 </section>
 
 <section>
+  {{!--
   <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Schedule</h2>
-  {{program-schedule events=model.scheduleItems}}
-  {{link-to 'See full program' 'program' classNames='program-link'}}
+    {{program-schedule events=model.scheduleItems}}
+    {{link-to 'See full program' 'program' classNames='program-link'}}
+  --}}
 </section>
