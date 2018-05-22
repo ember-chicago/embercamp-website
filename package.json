@@ -43,7 +43,8 @@
     "ember-source": "~3.1.0",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3",
-    "prember": "^0.3.0"
+    "prember": "^0.3.0",
+    "hoek": "4.2.1"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
