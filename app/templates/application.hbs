@@ -4,14 +4,13 @@
 </header>
 <main>
   {{outlet}}
-  {{!--{{buy-tickets ticketSalesDisabled=true}}--}}
-  {{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
 </main>
 <footer>
   <nav>
     <!--todo: footer nav contents-->
+    {{link-to 'Home' 'index'}}
     <a href="http://emberwomen.com/">Women: Get Involved</a>
-    <a href="http://emberconf.com/code-of-conduct.html">Code of Conduct</a>
+    {{link-to 'Code of Conduct' 'code-of-conduct'}}
     <a href="mailto:chicago@embercamp.com">Get in Touch</a>
     <a href="http://tilde.io/">© Tilde Inc. 2018</a>
   </nav>
