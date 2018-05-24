@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('/');
   this.route('program');
+  this.route('code-of-conduct');
 });
 
 export default Router;
