@@ -170,22 +170,22 @@ footer {
 }
 
 .button {
-  display: block;
-  padding: 1rem;
+  background-color: #003764;
   border-radius: 4px;
-  background: darken(#00a885, 10%);
-  color: white;
-  text-decoration: none;
   box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font-weight: bold;
-
-  max-width: 30rem;
+  color: white;
+  display: block;
+  letter-spacing: 2px;
   margin: 0 auto;
+  max-width: 30rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button:hover {
-  text-decoration: underline;
+  background-color: darken(#003764, 10%);
 }
 
 .button:active {
