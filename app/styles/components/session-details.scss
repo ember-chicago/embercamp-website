@@ -1,12 +1,12 @@
 .session-details {
   &-title {
-    text-align: left;
-    max-width: 800px;
     font-size: 1.5rem;
+    max-width: 800px;
+    text-align: left;
   }
   &-content {
-    max-width: 800px;
     display: flex;
+    max-width: 800px;
   }
   &-text {
     margin: 0;
@@ -14,13 +14,13 @@
   }
   &-img-wrapper {
     & img {
-      width: 220px;
-      height: 220px;
       border-radius: 50%;
+      height: 220px;
+      width: 220px;
     }
   }
   &-speaker-name {
-    text-align: center;
     margin: 0;
+    text-align: center;
   }
 }
