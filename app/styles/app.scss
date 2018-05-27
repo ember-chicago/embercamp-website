@@ -1,7 +1,11 @@
 $accent-color: #003764;
+$blue: #003764;
 $brand-color: #e75204;
+$orange: #e75204;
 $white: #fdfdfd;
 $black: #212121;
+$gray-light: #b2b4b1;
+$gray-dark: #888c8d;
 
 @import '_layout';
 @import 'templates/_main';
@@ -22,14 +26,14 @@ $black: #212121;
   text-align: center;
 }
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 1em;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 1.3rem;
   }
 }
 h2 {

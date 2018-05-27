@@ -1,17 +1,17 @@
-#schedule {
+.schedule {
   margin: 35px auto 0;
 }
 
-#schedule thead {
-  background-color: black;
-  color: white;
+.schedule thead {
+  background-color: $black;
+  color: $white;
 }
 
-#schedule tr {
+.schedule tr {
   line-height: 30px;
 }
 
-#schedule tr:nth-child(even) {
+.schedule tr:nth-child(even) {
   background-color: #C8C8C8;
 }
 
@@ -21,11 +21,11 @@ table {
   text-align: center;
 }
 
-#schedule a {
+.schedule a {
   color: inherit;
 }
 
-#schedule a:hover, #schedule a:visited,
-#schedule a:active, #schedule a:focus {
+.schedule a:hover, .schedule a:visited,
+.schedule a:active, .schedule a:focus {
   color: #0059a2;
 }

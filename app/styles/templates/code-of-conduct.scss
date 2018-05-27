@@ -1,11 +1,11 @@
 .code-of-conduct {
   &-message {
-    border: 1px solid #666;
-    background: white;
+    background: $white;
+    border-radius: 2px;
+    border: 1px solid $gray-dark;
+    font-size:1.5rem;
     margin: 2rem auto;
     padding: 1rem 3rem;
-    border-radius: 2px;
-    font-size:1.5rem;
     &-back{
       text-align: center;
       margin: 2rem 0;

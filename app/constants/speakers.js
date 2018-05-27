@@ -2,11 +2,11 @@ export const SPEAKERS = [
   {
     name: 'Tomster',
     twitterHandle: 'emberjs',
-    avatar: 'chicago-tomster.png'
+    avatar: '/assets/images/Ember-Chicago-Tomster-Half-sm.png'
   },
   {
     name: 'Zoey',
     twitterHandle: 'emberjs',
-    avatar: 'chicago-zoey.png'
+    avatar: '/assets/images/Ember-Chicago-Zoey-Half-sm.png'
   }
 ];

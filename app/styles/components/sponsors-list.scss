@@ -1,12 +1,12 @@
 .sponsor-list {
+  align-items: center;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none outside;
   margin: 0 auto;
-  padding: 0;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   max-width: 100% !important;
+  padding: 0;
 }
 
 .sponsor-list:first-of-type {
@@ -25,9 +25,9 @@
 
 .sponsor-list > li > a > img {
   display: block;
-  width: 100%;
   height: auto;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media (min-width: 50rem) {
