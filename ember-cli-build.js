@@ -8,8 +8,8 @@ module.exports = function(defaults) {
     prember: {
       urls: [
         '/',
-        'code-of-conduct',
-        '/program'
+        '/code-of-conduct'
+        //'/program'
       ]
     },
   });
