@@ -1,12 +1,18 @@
 export const SPEAKERS = [
   {
-    name: 'Tomster',
-    twitterHandle: 'emberjs',
-    avatar: '/assets/images/Ember-Chicago-Tomster-Half-sm.png'
+    name: 'Sam Selikoff',
+    twitterHandle: 'samselikoff',
+    avatar: '/assets/images/speakers/sam-selikoff.jpg',
+    bio: 'Sam is the co-founder of <a target="_blank" href="embermap.com">EmberMap.com</a> and creator of Ember CLI Mirage. He\'s a former front-end developer from TED who loves teaching, speaking, and helping teams effectively use Ember. Sam believes in the power of modern web-based UIs to transform organizations.',
+    label: 'Opening Keynote',
+    type: 'keynote'
   },
   {
-    name: 'Zoey',
-    twitterHandle: 'emberjs',
-    avatar: '/assets/images/Ember-Chicago-Zoey-Half-sm.png'
+    name: 'Jen Weber',
+    twitterHandle: 'jwwweber',
+    avatar: '/assets/images/speakers/jen-weber.jpg',
+    bio: '',
+    label: 'Closing Keynote',
+    type: 'keynote'
   }
 ];
