@@ -1,0 +1,20 @@
+.sponsor-details {
+  &-link {
+    padding: 1rem;
+    border: 2px solid transparent;
+    &:hover {
+      border-color: $brand-color;
+    }
+  }
+  &-platinum {
+    & .sponsor-details-logo {
+      max-height: 180px;
+      max-width: 360px;
+    }
+  }
+  &-logo {
+    vertical-align: middle;
+    max-height: 120px;
+    max-width: 240px;
+  }
+}

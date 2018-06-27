@@ -62,14 +62,6 @@ footer {
     margin-left: -1rem;
     padding-left: 1rem;
   }
-
-  .sponsor-list:first-of-type {
-    margin-top: -2rem;
-  }
-  .sponsor-list > li {
-    flex-basis: calc(50% - 2rem);
-    margin: 1rem;
-  }
 }
 
 @media (min-width: 40rem) {
@@ -100,6 +92,15 @@ footer {
     position: relative;
     text-align: left;
     text-transform: uppercase;
+    &.ribbon--dark{
+      background: $accent-color;
+      &:before {
+        border-top-color: $accent-color;
+      }
+      &:after{
+        border-top-color: $accent-color;
+      }
+    }
   }
   .ribbon:before {
     content: '';
@@ -155,11 +156,6 @@ footer {
     position: absolute;
     top: 0;
     width: 1000px;
-  }
-
-  .sponsor-list > li {
-    flex-basis: calc(33.333% - 2rem);
-    margin: 1rem;
   }
 
   .prospectus {

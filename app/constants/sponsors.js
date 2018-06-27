@@ -1,15 +1,15 @@
 export const TIER_ONE_SPONSORS = [
   {
-    websiteUrl: 'https://www.chase.com/',
+    website: 'http://jpmorgan.com/techcareers',
     sponsorName: 'JPMorgan Chase',
-    imageUrl: ''
+    imageUrl: 'assets/images/sponsors/jpm_chase_logo.png'
   }
 ];
 
 export const TIER_TWO_SPONSORS = [
-  {
-    websiteUrl: 'https://www.chase.com/',
-    sponsorName: 'JPMorgan Chase',
-    imageUrl: ''
-  }
+
+];
+
+export const TIER_THREE_SPONSORS = [
+
 ];
