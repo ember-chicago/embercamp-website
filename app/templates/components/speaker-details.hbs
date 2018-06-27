@@ -1,7 +1,11 @@
 {{#with @speaker as |speaker|}}
-  <img src="{{speaker.avatar}}" alt="{{speaker.name}}">
-  <span>{{speaker.name}}</span>
+  <img class="speaker-details-image" src="{{speaker.avatar}}" alt="{{speaker.name}}">
+  <div class="speaker-details-name">{{speaker.name}}</div>
+  <div class="speaker-details-type {{speaker.type}}"></div>
   {{#if speaker.twitterHandle}}
-    <a href="https://twitter.com/{{speaker.twitterHandle}}">@{{speaker.twitterHandle}}</a>
+    <a href="https://twitter.com/{{speaker.twitterHandle}}" class="speaker-details-twitter-handle">
+      {{fa-icon 'twitter'}}
+      @{{speaker.twitterHandle}}
+    </a>
   {{/if}}
 {{/with}}
