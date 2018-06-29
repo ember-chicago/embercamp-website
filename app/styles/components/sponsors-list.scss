@@ -34,11 +34,4 @@
   .sponsor-list {
     max-width: 60rem !important;
   }
-  .sponsor-list:first-of-type {
-    margin-top: -1.5rem;
-  }
-  .sponsor-list > li {
-    flex-basis: calc(20% - 4rem);
-    margin: 2rem;
-  }
 }

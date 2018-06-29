@@ -1,27 +1,20 @@
 <section class="pull-up">
-  <!--<h3 class="ribbon ribbon--left ribbon--centered ribbon--skinny">Premier Sponsors</h3>
-  <ul class="sponsor-list">
-    {{#each @premierSponsors as |sponsor|}}
-      <li>
-        {{sponsor-details sponsor=sponsor}}
-      </li>
-    {{/each}}
-  </ul>
 
-  <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny">Supporting Sponsors</h3>
-  <ul class="sponsor-list">
-    {{#each @supportingSponsors as |sponsor|}}
-      <li>
-        {{sponsor-details sponsor=sponsor}}
-      </li>
-    {{/each}}
-  </ul>-->
   <h2 class="ribbon ribbon--left ribbon--centered">Become A Sponsor</h2>
- 
+
   <p class="prospectus">
     Become a sponsor and support the Chicago Ember community!
     <br/>
     <a href="/assets/images/prospectus/EmberCamp-Chicago-2018-Sponsor-Prospectus.pdf">Sponsor Prospectus PDF</a>
   </p>
-  
+
+  <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny ribbon--dark">Platinum Sponsor</h3>
+  <ul class="sponsor-list">
+    {{#each @premierSponsors as |sponsor|}}
+      <li>
+        {{sponsor-details sponsor=sponsor classNames='sponsor-details-platinum'}}
+      </li>
+    {{/each}}
+  </ul>
+
 </section>
