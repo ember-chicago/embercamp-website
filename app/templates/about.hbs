@@ -1,0 +1,13 @@
+<section>
+  <h2 class="ribbon ribbon--left ribbon--centered">Organizers</h2>
+
+  <ul class="organizers-list">
+    {{#each model.organizers as |organizer|}}
+      <li class="organizers-list-item">
+        {{speaker-details speaker=organizer}}
+      </li>
+    {{/each}}
+  </ul>
+</section>
+
+{{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}

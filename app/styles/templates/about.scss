@@ -1,0 +1,16 @@
+.organizers-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  &-item{
+    margin: 1rem .5rem;
+  }
+  & .speaker-details{
+    text-align: center;
+    &-image{
+      max-height: 240px;
+      max-width: 240px;
+    }
+  }
+}
