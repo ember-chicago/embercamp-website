@@ -67,6 +67,12 @@
         background: $brand-color;
       }
     }
+    &.speaker{
+      &:before {
+        content: 'Speaker';
+        background: $accent-color;
+      }
+    }
     &.organizer{
       &:before {
         content: 'Organizer';
