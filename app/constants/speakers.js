@@ -14,5 +14,13 @@ export const SPEAKERS = [
     bio: '',
     label: 'Closing Keynote',
     type: 'keynote'
+  },
+  {
+    name: 'Tom Dale',
+    twitterHandle: 'jwwweber',
+    avatar: '/assets/images/speakers/tom-dale.jpg',
+    bio: '',
+    label: '',
+    type: 'speaker'
   }
 ];
