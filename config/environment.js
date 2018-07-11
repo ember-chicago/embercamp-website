@@ -29,6 +29,11 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV['ember-a11y-testing'] = {
+      componentOptions: {
+        turnAuditOff: true, // Change to true to disable the audit in development
+      }
+    }
   }
 
   if (environment === 'test') {
@@ -45,6 +50,11 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV['ember-a11y-testing'] = {
+      componentOptions: {
+        turnAuditOff: true, // Change to true to disable the audit in development
+      }
+    }
   }
 
   return ENV;
