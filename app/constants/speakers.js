@@ -20,7 +20,7 @@ export const SPEAKERS = [
     twitterHandle: 'tomdale',
     avatar: '/assets/images/speakers/tom-dale.jpg',
     bio: '',
-    label: '',
+    label: 'Speaker',
     type: 'speaker'
   }
 ];
