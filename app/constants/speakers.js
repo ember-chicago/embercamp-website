@@ -17,10 +17,10 @@ export const SPEAKERS = [
   },
   {
     name: 'Tom Dale',
-    twitterHandle: 'jwwweber',
+    twitterHandle: 'tomdale',
     avatar: '/assets/images/speakers/tom-dale.jpg',
     bio: '',
-    label: '',
+    label: 'Speaker',
     type: 'speaker'
   }
 ];
