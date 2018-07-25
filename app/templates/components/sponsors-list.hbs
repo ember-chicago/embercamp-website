@@ -10,11 +10,33 @@
 
   <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny ribbon--dark">Platinum Sponsor</h3>
   <ul class="sponsor-list">
-    {{#each @premierSponsors as |sponsor|}}
+    {{#each platinum as |sponsor|}}
       <li>
         {{sponsor-details sponsor=sponsor classNames='sponsor-details-platinum'}}
       </li>
     {{/each}}
   </ul>
+
+  {{#if gold.length}}
+    <h3 class="ribbon ribbon--left ribbon--centered ribbon--skinny ribbon--dark">Gold Sponsors</h3>
+    <ul class="sponsor-list">
+      {{#each gold as |sponsor|}}
+        <li>
+          {{sponsor-details sponsor=sponsor classNames='sponsor-details-gold'}}
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+
+  {{#if bronze.length}}
+    <h3 class="ribbon ribbon--left ribbon--centered ribbon--skinny ribbon--dark">Bronze Sponsors</h3>
+    <ul class="sponsor-list">
+      {{#each bronze as |sponsor|}}
+        <li>
+          {{sponsor-details sponsor=sponsor classNames='sponsor-details-bronze'}}
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
 
 </section>

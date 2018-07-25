@@ -6,10 +6,12 @@ export const TIER_ONE_SPONSORS = [
   }
 ];
 
-export const TIER_TWO_SPONSORS = [
-
-];
+export const TIER_TWO_SPONSORS = [];
 
 export const TIER_THREE_SPONSORS = [
-
+  {
+    website: 'https://www.201-created.com',
+    sponsorName: '201 Created',
+    imageUrl: 'assets/images/sponsors/201_created_logo.svg'
+  }
 ];

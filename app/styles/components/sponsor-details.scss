@@ -1,20 +1,31 @@
 .sponsor-details {
   &-link {
-    padding: 1rem;
     border: 2px solid transparent;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    max-width: 100%;
     &:hover {
       border-color: $brand-color;
     }
   }
+  &-logo {
+    width: 100%;
+  }
   &-platinum {
-    & .sponsor-details-logo {
-      max-height: 180px;
-      max-width: 360px;
+    & .sponsor-details-link{
+      width: 360px;
     }
   }
-  &-logo {
-    vertical-align: middle;
-    max-height: 120px;
-    max-width: 240px;
+  &-gold {
+    & .sponsor-details-link{
+      width: 240px;
+    }
+  }
+  &-bronze {
+    & .sponsor-details-link{
+      width: 180px;
+    }
   }
 }
