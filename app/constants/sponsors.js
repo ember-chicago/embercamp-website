@@ -6,7 +6,13 @@ export const TIER_ONE_SPONSORS = [
   }
 ];
 
-export const TIER_TWO_SPONSORS = [];
+export const TIER_TWO_SPONSORS = [
+  {
+    website: 'https://www.teksystems.com',
+    sponsorName: 'TekSystems',
+    imageUrl: 'assets/images/sponsors/teksystems_logo.png'
+  }
+];
 
 export const TIER_THREE_SPONSORS = [
   {
