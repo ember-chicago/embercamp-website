@@ -22,5 +22,29 @@ export const SPEAKERS = [
     bio: '',
     label: 'Speaker',
     type: 'speaker'
+  },
+  {
+    name: 'Jordan Hawker',
+    twitterHandle: 'JordanHawker',
+    avatar: '/assets/images/speakers/jordan-hawker.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Katie Gengler',
+    twitterHandle: 'katiegengler',
+    avatar: '/assets/images/speakers/katie-gengler.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Toran Billups',
+    twitterHandle: 'toranb',
+    avatar: '/assets/images/speakers/toran-billups.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
   }
 ];
