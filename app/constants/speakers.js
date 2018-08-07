@@ -46,5 +46,59 @@ export const SPEAKERS = [
     bio: '',
     label: 'Speaker',
     type: 'speaker'
+  },
+  {
+    name: 'Lily Beauvilliers',
+    twitterHandle: 'ukelilybee',
+    avatar: '/assets/images/speakers/lily-beauvilliers.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Dave Wasmer',
+    twitterHandle: 'davewasmer',
+    avatar: '/assets/images/speakers/dave-wasmer.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Tobias Bieniek',
+    twitterHandle: 'TobiasBieniek',
+    avatar: '/assets/images/speakers/tobias-bieniek.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Frédéric Soumaré',
+    twitterHandle: null,
+    avatar: '/assets/images/speakers/frederic-soumare.png',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },
+  {
+    name: 'Spencer Price',
+    twitterHandle: null,
+    avatar: '/assets/images/speakers/spencer-price.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },{
+    name: 'Kavitha Krishnan',
+    twitterHandle: 'PassionateUXer',
+    avatar: '/assets/images/speakers/kavitha-krishnan.png',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
+  },{
+    name: 'Kelly Selden',
+    twitterHandle: 'kellyselden',
+    avatar: '/assets/images/speakers/kelly-selden.jpg',
+    bio: '',
+    label: 'Speaker',
+    type: 'speaker'
   }
 ];
