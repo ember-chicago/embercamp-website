@@ -11,6 +11,14 @@ export const TIER_TWO_SPONSORS = [
     website: 'https://www.teksystems.com',
     sponsorName: 'TekSystems',
     imageUrl: 'assets/images/sponsors/teksystems_logo.png'
+  },{
+    website: 'https://www.activecampaign.com',
+    sponsorName: 'Active Campaign',
+    imageUrl: 'assets/images/sponsors/activecampaign-logo.png'
+  },{
+    website: 'https://www.redshelf.com',
+    sponsorName: 'RedShelf',
+    imageUrl: 'assets/images/sponsors/redshelf-logo.png'
   }
 ];
 
