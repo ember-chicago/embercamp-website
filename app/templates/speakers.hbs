@@ -1,0 +1,19 @@
+<section class="speakers">
+  <main class="speakers-main">
+    <h2 class="ribbon ribbon--left ribbon--flipped ribbon--centered">Speakers</h2>
+    <ul class="speakers-list">
+      {{#each model.speakers as |speaker|}}
+        <li class="speakers-list-item">
+          {{{speaker-details speaker=speaker}}}
+          <div class="speakers-list-item-info">
+            <h3 class="speakers-list-item-title">{{speaker.talkTitle}}</h3>
+            <h4>About {{speaker.name}}:</h4>
+            <p class="speakers-list-item-bio">
+              {{speaker.bio}}
+            </p>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  </main>
+</section>

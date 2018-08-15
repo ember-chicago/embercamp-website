@@ -1,22 +1,32 @@
-<table title="Program Schedule" class="program-schedule" id="schedule">
+<h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Program Schedule</h2>
+
+<table title="Program Schedule" class="program-schedule-table">
   <thead>
   <tr>
-    <th width="140">TIME</th>
-    <th width="400">CONTENT</th>
+    {{!-- <th width="140">Time</th> --}}
+    <th width="480">Title</th>
+    <th width="240">Speaker</th>
   </tr>
   </thead>
   <tbody>
-  {{#each @events as |event|}}
-    <tr class="{{event.type}}">
-      <td>{{event.startTime}} - {{event.endTime}}</td>
-      <td>
-        {{#if event.target}}
-          <a href="{{event.target}}">{{event.title}}</a>
-        {{else}}
-          {{event.title}}
-        {{/if}}
-      </td>
-    </tr>
+  {{#each scheduleItemsWithSpeakers as |event|}}
+    {{#if event.speakerInfo.name}}
+      <tr class="{{event.type}}">
+        {{!-- <td>{{event.startTime}} to {{event.endTime}}</td> --}}
+        <td>
+          {{#if event.target}}
+            <a href="{{event.target}}">{{event.title}}</a>
+          {{else}}
+            {{event.speakerInfo.talkTitle}}
+          {{/if}}
+        </td>
+        <td>
+          {{#if event.speakerInfo.name}}
+            {{event.speakerInfo.name}}
+          {{/if}}
+        </td>
+      </tr>
+    {{/if}}
   {{/each}}
   </tbody>
 </table>
