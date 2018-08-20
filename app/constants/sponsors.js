@@ -27,5 +27,10 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://www.201-created.com',
     sponsorName: '201 Created',
     imageUrl: 'assets/images/sponsors/201_created_logo.svg'
+  },
+  {
+    website: 'https://discoverpraxis.com',
+    sponsorName: 'Praxis',
+    imageUrl: 'assets/images/sponsors/praxis-logo.png'
   }
 ];
