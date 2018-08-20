@@ -38,7 +38,7 @@ export const SCHEDULE_ITEMS = [
   }, {
     startTime: '11:35',
     endTime: '11:50',
-    speaker: 6 // Lily Beauvilliers
+    speaker: 7 // Lily Beauvilliers
   }, {
     title: 'Lunch (1 hour and 20 Minutes)',
     startTime: '11:50',
