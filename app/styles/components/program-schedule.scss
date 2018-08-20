@@ -1,31 +1,23 @@
-.schedule {
-  margin: 35px auto 0;
-}
-
-.schedule thead {
-  background-color: $black;
-  color: $white;
-}
-
-.schedule tr {
-  line-height: 30px;
-}
-
-.schedule tr:nth-child(even) {
-  background-color: #C8C8C8;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  text-align: center;
-}
-
-.schedule a {
-  color: inherit;
-}
-
-.schedule a:hover, .schedule a:visited,
-.schedule a:active, .schedule a:focus {
-  color: #0059a2;
+.program-schedule {
+  margin-bottom:2rem;
+  &-table {
+    border: 1px solid $accent-color;
+    border-collapse: collapse;
+    margin: 1rem auto;
+    & tbody {
+      & tr {
+        &:nth-of-type(odd) {
+          background: lighten($accent-color, 75%);
+        }
+      }
+    }
+    & th, & td {
+      text-align: left;
+      padding: .25rem .5rem;
+    }
+    & th {
+      font-size:1.25rem;
+      font-weight: 900;
+    }
+  }
 }

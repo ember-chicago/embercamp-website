@@ -1,14 +1,14 @@
 <section class="lead">
   <h2 class="text-center">EmberCamp is coming to Chicago!</h2>
   <p>Join us on September 21 for the first-ever EmberCamp Chicago, where we’ll be hosting 150+ of the world’s top Ember
-    developers for a full day of Ember talks, all on the 56th floor of the historic Chase Tower in downtown Chicago. 
-  </p> 
+    developers for a full day of Ember talks, all on the 56th floor of the historic Chase Tower in downtown Chicago.
+  </p>
   <p>Whether you want to come enjoy the breathtaking views, make new Ember friends, or get the scoop
     on what's coming next- EmberCamp Chicago is the place to be!</p>
   <div class="index-images">
-      <img class="index-summary-image" src="/assets/images/chase-tower-skyline.jpg" alt="" role="presentation">
-      <img class="index-summary-image" src="/assets/images/chase-tower-building.jpg" alt="" role="presentation">
-      <img class="index-summary-image" src="/assets/images/chase-tower-skyline-2.jpg" alt="" role="presentation">
+    <img class="index-summary-image" src="/assets/images/chase-tower-skyline.jpg" alt="" role="presentation">
+    <img class="index-summary-image" src="/assets/images/chase-tower-building.jpg" alt="" role="presentation">
+    <img class="index-summary-image" src="/assets/images/chase-tower-skyline-2.jpg" alt="" role="presentation">
   </div>
 </section>
 
@@ -26,11 +26,8 @@
 </section>
 
 <section>
-  {{!--
-  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Schedule</h2>
-    {{program-schedule events=model.scheduleItems}}
-    {{!-- {{link-to 'See full program' 'program' classNames='program-link'}} --}}
-  
+  {{program-schedule}}
+  {{link-to 'View more details' 'speakers' classNames='schedule-details button'}}
 </section>
 
 {{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
