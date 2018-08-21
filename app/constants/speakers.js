@@ -70,7 +70,7 @@ export const SPEAKERS = [
   },
   {
     name: 'Lily Beauvilliers',
-    twitterHandle: 'ukelilybee',
+    twitterHandle: 'ukulilybee',
     avatar: '/assets/images/speakers/lily-beauvilliers.jpg',
     bio: 'Lily Beauvilliers has been a software engineer with Intercom for one year, after completing a one-year course in Applied Software Technology in Dublin. That means she’s only been coding for two years! Before that, she was a liberal arts kid who taught English and math to middle schoolers. As a latecomer to tech, Lily has done a lot of her learning on-the-job, and with her teaching background, she’s thought deeply about how to learn and how to teach programming.',
     label: 'Speaker',
