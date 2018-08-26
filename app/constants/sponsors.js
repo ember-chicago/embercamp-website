@@ -24,6 +24,19 @@ export const TIER_TWO_SPONSORS = [
 
 export const TIER_THREE_SPONSORS = [
   {
+    website: 'https://www.crowdstrike.com',
+    sponsorName: 'Crowdstrike',
+    imageUrl: 'assets/images/sponsors/crowdstrike-logo.png'
+  },
+  {
+    website: 'https://simplabs.com',
+    sponsorName: 'Simplabs',
+    imageUrl: 'assets/images/sponsors/simplabs-logo.png'
+  }
+];
+
+export const TIER_FOUR_SPONSORS = [
+  {
     website: 'https://www.201-created.com',
     sponsorName: '201 Created',
     imageUrl: 'assets/images/sponsors/201_created_logo.svg'
