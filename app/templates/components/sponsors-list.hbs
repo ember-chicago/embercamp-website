@@ -28,8 +28,19 @@
     </ul>
   {{/if}}
 
+  {{#if silver.length}}
+    <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny ribbon--dark">Silver Sponsors</h3>
+    <ul class="sponsor-list">
+      {{#each silver as |sponsor|}}
+        <li>
+          {{sponsor-details sponsor=sponsor classNames='sponsor-details-bronze'}}
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+
   {{#if bronze.length}}
-    <h3 class="ribbon ribbon--right ribbon--centered ribbon--skinny ribbon--dark">Bronze Sponsors</h3>
+    <h3 class="ribbon ribbon--left ribbon--centered ribbon--skinny ribbon--dark">Bronze Sponsors</h3>
     <ul class="sponsor-list">
       {{#each bronze as |sponsor|}}
         <li>
