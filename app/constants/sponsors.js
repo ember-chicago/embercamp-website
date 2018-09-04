@@ -32,6 +32,11 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://simplabs.com',
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/simplabs-logo.png'
+  },
+  {
+    website: 'https://cardstack.com',
+    sponsorName: 'Cardstack',
+    imageUrl: 'assets/images/sponsors/cardstack-logo.png'
   }
 ];
 
@@ -45,5 +50,10 @@ export const TIER_FOUR_SPONSORS = [
     website: 'https://discoverpraxis.com',
     sponsorName: 'Praxis',
     imageUrl: 'assets/images/sponsors/praxis-logo.png'
+  },
+  {
+    website: 'https://www.tilde.io',
+    sponsorName: 'Tilde',
+    imageUrl: 'assets/images/sponsors/tilde-logo.png'
   }
 ];
