@@ -50,5 +50,10 @@ export const TIER_FOUR_SPONSORS = [
     website: 'https://discoverpraxis.com',
     sponsorName: 'Praxis',
     imageUrl: 'assets/images/sponsors/praxis-logo.png'
+  },
+  {
+    website: 'https://www.tilde.io',
+    sponsorName: 'Tilde',
+    imageUrl: 'assets/images/sponsors/tilde-logo.png'
   }
 ];
