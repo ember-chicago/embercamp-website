@@ -32,6 +32,11 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://simplabs.com',
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/simplabs-logo.png'
+  },
+  {
+    website: 'https://cardstack.com',
+    sponsorName: 'Cardstack',
+    imageUrl: 'assets/images/sponsors/cardstack-logo.png'
   }
 ];
 
