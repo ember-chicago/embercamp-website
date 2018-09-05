@@ -1,3 +1,4 @@
+//Platinum
 export const TIER_ONE_SPONSORS = [
   {
     website: 'http://jpmorgan.com/techcareers',
@@ -6,6 +7,7 @@ export const TIER_ONE_SPONSORS = [
   }
 ];
 
+//Gold
 export const TIER_TWO_SPONSORS = [
   {
     website: 'https://www.teksystems.com',
@@ -19,9 +21,14 @@ export const TIER_TWO_SPONSORS = [
     website: 'https://www.redshelf.com',
     sponsorName: 'RedShelf',
     imageUrl: 'assets/images/sponsors/redshelf-logo.png'
+  },{
+    website: 'https://cardstack.com',
+    sponsorName: 'Cardstack',
+    imageUrl: 'assets/images/sponsors/cardstack-logo.png'
   }
 ];
 
+//Silver
 export const TIER_THREE_SPONSORS = [
   {
     website: 'https://www.crowdstrike.com',
@@ -32,14 +39,10 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://simplabs.com',
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/simplabs-logo.png'
-  },
-  {
-    website: 'https://cardstack.com',
-    sponsorName: 'Cardstack',
-    imageUrl: 'assets/images/sponsors/cardstack-logo.png'
   }
 ];
 
+//Bronze
 export const TIER_FOUR_SPONSORS = [
   {
     website: 'https://www.201-created.com',
