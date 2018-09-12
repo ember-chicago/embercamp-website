@@ -42,7 +42,7 @@ export const SPEAKERS = [
     name: 'Jordan Hawker',
     twitterHandle: 'JordanHawker',
     avatar: '/assets/images/speakers/jordan-hawker.jpg',
-    bio: 'Jordan Hawker is a Senior JavaScript Engineer @ Twitch. He is the author of Ember-Interactivity and several other addons, as well as a contributor to dozens of other Ember OSS projects. In his spare time, Jordan streams board and video games on twitch.tv/boardgames and twitch.tv/axlehellfire. Find his occasional professional ramblings at JordanHawker.com',
+    bio: 'Jordan Hawker is a Senior JavaScript Engineer. He is the author of Ember-Interactivity and several other addons, as well as a contributor to dozens of other Ember OSS projects. In his spare time, Jordan streams board and video games on twitch.tv/boardgames and twitch.tv/axlehellfire. Find his occasional professional ramblings at JordanHawker.com',
     label: 'Speaker',
     type: 'speaker',
     talkTitle: 'It\'s Easy to Measure Performance in Ember',
