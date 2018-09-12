@@ -39,6 +39,11 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://simplabs.com',
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/simplabs-logo.png'
+  },
+  {
+    website: 'https://www.intercom.com/',
+    sponsorName: 'Intercom',
+    imageUrl: 'assets/images/sponsors/intercom-logo.png'
   }
 ];
 
@@ -58,5 +63,15 @@ export const TIER_FOUR_SPONSORS = [
     website: 'https://www.tilde.io',
     sponsorName: 'Tilde',
     imageUrl: 'assets/images/sponsors/tilde-logo.png'
+  },
+  {
+    website: 'https://movableink.com',
+    sponsorName: 'Movable Ink',
+    imageUrl: 'assets/images/sponsors/movable-ink-logo.png'
+  },
+  {
+    website: 'https://www.tumblr.com',
+    sponsorName: 'Tumblr',
+    imageUrl: 'assets/images/sponsors/tumblr-logo.png'
   }
 ];
