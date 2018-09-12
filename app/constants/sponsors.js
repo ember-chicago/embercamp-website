@@ -39,6 +39,11 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://simplabs.com',
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/simplabs-logo.png'
+  },
+  {
+    website: 'https://www.intercom.com/',
+    sponsorName: 'Intercom',
+    imageUrl: 'assets/images/sponsors/intercom-logo.png'
   }
 ];
 
@@ -69,5 +74,4 @@ export const TIER_FOUR_SPONSORS = [
     sponsorName: 'Tumblr',
     imageUrl: 'assets/images/sponsors/tumblr-logo.png'
   }
-
 ];
