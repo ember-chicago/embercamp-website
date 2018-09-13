@@ -44,6 +44,11 @@ export const TIER_THREE_SPONSORS = [
     website: 'https://www.intercom.com/',
     sponsorName: 'Intercom',
     imageUrl: 'assets/images/sponsors/intercom-logo.png'
+  },
+  {
+    website: 'https://www.linkedin.com/',
+    sponsorName: 'LinkedIn',
+    imageUrl: 'assets/images/sponsors/linkedin-logo.png'
   }
 ];
 
