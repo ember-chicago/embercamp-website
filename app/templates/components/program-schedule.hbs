@@ -12,7 +12,7 @@
   {{#each scheduleItemsWithSpeakers as |event|}}
     {{#if event.speakerInfo.name}}
       <tr class="{{event.type}}">
-        {{!-- <td>{{event.startTime}} to {{event.endTime}}</td> --}}
+        <td>{{event.startTime}} to {{event.endTime}}</td>
         <td>
           {{#if event.target}}
             <a href="{{event.target}}">{{event.title}}</a>
