@@ -1,103 +1,107 @@
 export const SCHEDULE_ITEMS = [
   {
     title: 'Registration',
-    startTime: '8:00',
-    endTime: '9:00'
+    startTime: '8:00am',
+    endTime: '9:00am'
   }, {
-    startTime: '9:00',
-    endTime: '9:10',
+    startTime: '9:00am',
+    endTime: '9:10am',
     speaker: 14,
   }, {
-    startTime: '9:10',
-    endTime: '9:40',
+    startTime: '9:10am',
+    endTime: '9:40am',
     speaker: 1 // Sam Selikoff
   }, {
     title: 'Break',
-    startTime: '9:40',
-    endTime: '9:45'
+    startTime: '9:40am',
+    endTime: '9:45am'
   }, {
-    startTime: '9:45',
-    endTime: '10:15',
+    startTime: '9:45am',
+    endTime: '10:15am',
     speaker: 3 //Tom Dale
   }, {
     title: 'Break',
-    startTime: '10:15',
-    endTime: '10:25'
+    startTime: '10:15am',
+    endTime: '10:25am'
   }, {
-    startTime: '10:25',
-    endTime: '10:55',
+    startTime: '10:25am',
+    endTime: '10:55am',
     speaker: 6 // Toran Billups
   }, {
     title: 'Break',
-    startTime: '10:55',
-    endTime: '11:05'
+    startTime: '10:55am',
+    endTime: '11:05am'
   }, {
-    startTime: '11:05',
-    endTime: '11:35',
+    startTime: '11:05am',
+    endTime: '11:35am',
     speaker: 5 // Katie Gengler
   }, {
-    startTime: '11:35',
-    endTime: '11:50',
+    startTime: '11:35am',
+    endTime: '11:50am',
     speaker: 7 // Lily Beauvilliers
   }, {
     title: 'Lunch (1 hour and 20 Minutes)',
-    startTime: '11:50',
-    endTime: '13:10'
+    startTime: '11:50am',
+    endTime: '1:10pm'
   }, {
-    startTime: '13:10',
-    endTime: '13:25',
+    startTime: '1:10pm',
+    endTime: '1:25pm',
     speaker: 8
   }, {
     title: 'Break',
-    startTime: '13:25',
-    endTime: '13:35'
+    startTime: '1:25pm',
+    endTime: '1:35pm'
   }, {
-    startTime: '13:35',
-    endTime: '14:05',
+    startTime: '1:35pm',
+    endTime: '2:05pm',
     speaker: 9
   }, {
     title: 'Break',
-    startTime: '14:05',
-    endTime: '14:15'
+    startTime: '2:05pm',
+    endTime: '2:15pm'
   }, {
-    startTime: '14:15',
-    endTime: '14:30',
+    startTime: '2:15pm',
+    endTime: '2:30pm',
     speaker: 12
   }, {
-    startTime: '14:30',
-    endTime: '14:45',
+    startTime: '2:30pm',
+    endTime: '2:45pm',
     speaker: 10
   }, {
     title: 'Break',
-    startTime: '14:45',
-    endTime: '14:50'
+    startTime: '2:45pm',
+    endTime: '2:50pm'
   }, {
-    startTime: '14:50',
-    endTime: '15:20',
+    startTime: '2:50pm',
+    endTime: '3:20pm',
     speaker: 11
   }, {
     title: 'Afternoon Snack Break',
-    startTime: '15:20',
-    endTime: '15:50'
+    startTime: '3:20pm',
+    endTime: '3:50pm'
   }, {
-    startTime: '15:50',
-    endTime: '16:20',
+    startTime: '3:50pm',
+    endTime: '4:20pm',
     speaker: 13
   }, {
     title: 'Break',
-    startTime: '16:20',
-    endTime: '16:25'
+    startTime: '4:20pm',
+    endTime: '4:25pm'
   }, {
-    startTime: '16:25',
-    endTime: '16:55',
+    startTime: '4:25pm',
+    endTime: '4:55pm',
     speaker: 4
   }, {
     title: 'Break',
-    startTime: '16:55',
-    endTime: '17:00'
+    startTime: '4:55pm',
+    endTime: '5:00pm'
   }, {
-    startTime: '17:00',
-    endTime: '17:30',
+    startTime: '5:00pm',
+    endTime: '5:30pm',
     speaker: 2
+  }, {
+    title: 'After Party at ActiveCampaign',
+    startTime: '5:30pm',
+    endTime: '8:00pm'
   }
 ];
