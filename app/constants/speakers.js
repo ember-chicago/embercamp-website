@@ -55,7 +55,7 @@ export const SPEAKERS = [
     bio: 'Katie is an experienced web developer and has been using Ember since 2012. In 2015, she started Code All Day Consulting with Michelle Santarsiero. Katie created and maintains EmberObserver.com. She is also a member of the Ember core team.',
     label: 'Speaker',
     type: 'speaker',
-    talkTitle: 'Getting the most of other people\'s code is easy in Ember',
+    talkTitle: 'Getting the most out of open source (Ember) code',
     id: 5
   },
   {
