@@ -1,0 +1,2 @@
+# redirect all server-handled routes to our primary client-side entry point
+/*    /    200
