@@ -1,0 +1,4 @@
+# netlify redirects for server-side routing to client-side routing
+
+# redirect all server-handled routes to our primary entry point
+/*    /   200
