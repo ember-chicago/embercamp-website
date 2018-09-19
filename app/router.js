@@ -9,7 +9,7 @@ const Router = EmberRouter.extend(RouterScroll, {
 
 Router.map(function() {
   this.route('/');
-  /*this.route('program');*/
+  this.route('program');
   this.route('code-of-conduct');
   this.route('about');
   this.route('speakers');

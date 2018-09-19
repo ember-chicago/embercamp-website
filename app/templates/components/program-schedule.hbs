@@ -3,30 +3,27 @@
 <table title="Program Schedule" class="program-schedule-table">
   <thead>
   <tr>
-    <th width="140">Time</th>
-    <th width="480">Title</th>
-    <th width="240">Speaker</th>
+    <th width="180" colspan="2">Time</th>
+    <th width="520">Title</th>
+    <th width="200">Speaker</th>
   </tr>
   </thead>
   <tbody>
   {{#each scheduleItemsWithSpeakers as |event|}}
-    {{#if event.speakerInfo.name}}
-      <tr class="{{event.type}}">
-        <td>{{event.startTime}} to {{event.endTime}}</td>
-        <td>
-          {{#if event.target}}
-            <a href="{{event.target}}">{{event.title}}</a>
-          {{else}}
-            {{event.speakerInfo.talkTitle}}
-          {{/if}}
-        </td>
-        <td>
-          {{#if event.speakerInfo.name}}
-            {{event.speakerInfo.name}}
-          {{/if}}
-        </td>
-      </tr>
-    {{/if}}
+    <tr class="{{event.type}}">
+      <td>{{event.startTime}}</td>
+      <td>{{event.endTime}}</td>
+      <td>
+        {{#if event.target}}
+          <a href="{{event.target}}">{{event.title}}</a>
+        {{else}}
+          {{event.title}}
+        {{/if}}
+      </td>
+      <td>
+        {{event.name}}
+      </td>
+    </tr>
   {{/each}}
   </tbody>
 </table>

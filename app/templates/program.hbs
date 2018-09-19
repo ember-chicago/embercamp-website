@@ -1,13 +1,11 @@
-{{program-schedule events=model.scheduleEvents}}
-<section id="program">
-  <h2 class="ribbon ribbon--left ribbon--centered">Our Program</h2>
-  <ul class="program-list">
-    {{#each model.sessions as |session|}}
-      {{#if session.speakerName}}
-        <li class="program-list-item">
-          {{session-details session=session}}
-        </li>
-      {{/if}}
-    {{/each}}
-  </ul>
+{{program-schedule events=model.scheduleEvents showBreaks=true}}
+
+<section>
+  <h2 class="trim">After Party at ActiveCampaign</h2>
+  <dl>
+    <dt>Hosted by ActiveCampaign</dt>
+    <dt>1 N. Dearborn, Chicago, IL</dt>
+    <dt>Food, Drink, Good Company</dt>
+    <dt>5:30pm - 8:00pm</dt>
+  </dl>
 </section>
