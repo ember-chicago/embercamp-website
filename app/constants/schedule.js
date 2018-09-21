@@ -24,24 +24,20 @@ export const SCHEDULE_ITEMS = [
     startTime: '10:15am',
     endTime: '10:25am'
   }, {
-    startTime: '10:25am',
-    endTime: '10:55am',
+    startTime: '10:45am',
+    endTime: '11:15am',
     speaker: 6 // Toran Billups
   }, {
-    title: 'Break',
-    startTime: '10:55am',
-    endTime: '11:05am'
-  }, {
-    startTime: '11:05am',
-    endTime: '11:35am',
+    startTime: '11:15am',
+    endTime: '11:45am',
     speaker: 5 // Katie Gengler
   }, {
-    startTime: '11:35am',
-    endTime: '11:50am',
+    startTime: '11:45am',
+    endTime: '12:00pm',
     speaker: 7 // Lily Beauvilliers
   }, {
     title: 'Lunch',
-    startTime: '11:50am',
+    startTime: '12:00pm',
     endTime: '1:10pm'
   }, {
     startTime: '1:10pm',
