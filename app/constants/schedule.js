@@ -20,50 +20,39 @@ export const SCHEDULE_ITEMS = [
     endTime: '10:15am',
     speaker: 3 //Tom Dale
   }, {
-    title: 'Break',
-    startTime: '10:15am',
-    endTime: '10:25am'
-  }, {
-    startTime: '10:25am',
-    endTime: '10:55am',
+    startTime: '10:45am',
+    endTime: '11:15am',
     speaker: 6 // Toran Billups
   }, {
-    title: 'Break',
-    startTime: '10:55am',
-    endTime: '11:05am'
-  }, {
-    startTime: '11:05am',
-    endTime: '11:35am',
+    startTime: '11:15am',
+    endTime: '11:45am',
     speaker: 5 // Katie Gengler
   }, {
-    startTime: '11:35am',
-    endTime: '11:50am',
+    startTime: '11:45am',
+    endTime: '12:00am',
     speaker: 7 // Lily Beauvilliers
   }, {
     title: 'Lunch',
-    startTime: '11:50am',
-    endTime: '1:10pm'
+    startTime: '12:00pm',
+    endTime: '1:25pm'
   }, {
-    startTime: '1:10pm',
-    endTime: '1:25pm',
+    startTime: '1:25pm',
+    endTime: '1:30pm',
     speaker: 8
   }, {
     title: 'Break',
-    startTime: '1:25pm',
-    endTime: '1:35pm'
+    startTime: '1:40pm',
+    endTime: '1:50pm'
   }, {
-    startTime: '1:35pm',
-    endTime: '2:05pm',
+    startTime: '1:50pm',
+    endTime: '2:20pm',
     speaker: 9
   }, {
     title: 'Break',
-    startTime: '2:05pm',
-    endTime: '2:15pm'
-  }, {
-    startTime: '2:15pm',
-    endTime: '2:30pm',
-    speaker: 12
-  }, {
+    startTime: '2:20pm',
+    endTime: '2:30pm'
+  },  
+  {
     startTime: '2:30pm',
     endTime: '2:45pm',
     speaker: 10
