@@ -1,15 +1,23 @@
-<section class="lead">
-  <h2 class="text-center">EmberCamp Chicago<br>September 16th, 2019</h2>
+<section class="lead text-center">
+  <h2>EmberCamp Chicago<br>September 16th, 2019</h2>
+  <p>
+    The Commercial Interior Design Association<br>
+    111 E. Wacker Drive<br>
+    Suite 222<br>
+    Chicago, IL 60601
+  </p>
 </section>
 
+{{buy-tickets}}
+
 <section>
-  <h2 class="ribbon ribbon--left ribbon--flipped ribbon--centered">Announcement Signup</h2>
-  <p class="text-center">Want to know when tickets go on sale for EmberCamp 2019? Add your email below!</p>
+  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Announcement Signup</h2>
+  <p class="text-center">Sign up for EmberCamp 2019 announcements here!!</p>
   <p class="cta"><a class="button" target="_blank" href="https://goo.gl/forms/PAxPYOAYm2pVAxrF3">Sign Up for Announcements</a></p>
 </section>
 
 <section>
-  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Call for Proposals</h2>
+  <h2 class="ribbon ribbon--left ribbon--flipped ribbon--centered">Call for Proposals</h2>
   <p>
     We are looking for proposals! The CFP closes at the end of June 30th. Get your submissions
     in early to receive feedback for your iteration before the CFP closes!
@@ -33,12 +41,12 @@
     or just something fun to do with everyone!
   </p>
 
-  <p class="cta"><a class="button" target="_blank" href="https://cfp.emberconf.com/events/embercamp-chicago-2019">Submit CFP</a></p>
+  <p class="cta"><a class="button" target="_blank" href="https://cfp.emberconf.com/events/embercamp-chicago-2019">Submit Proposal</a></p>
 
 </section>
 
 <section>
-  <h2 class="ribbon ribbon--left ribbon--flipped ribbon--centered">Details</h2>
+  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Details</h2>
   <p>Join us on September 16th, 2019 for the second annual EmberCamp Chicago, where we’ll be hosting 150+ of the world’s top Ember
     developers for a full day of Ember talks.
   </p>
@@ -51,7 +59,7 @@
   </div>
 </section>
 
-{{buy-tickets}}
+
 
 {{!--
 
@@ -72,5 +80,6 @@
   {{link-to 'Schedule Details' 'program' classNames='schedule-details button'}}
 </section>
 
-{{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
 --}}
+<br><br>
+{{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
