@@ -26,12 +26,5 @@ export const ORGANIZERS = [
     avatar: '/assets/images/organizers/howie-bollinger.jpg',
     label: 'Organizer',
     type: 'organizer'
-  },
-  {
-    name: 'Monica Govea',
-    twitterHandle: null,
-    avatar: '/assets/images/organizers/monica-govea.jpg',
-    label: 'Organizer',
-    type: 'organizer'
   }
 ];

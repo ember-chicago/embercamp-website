@@ -1,5 +1,7 @@
 {{#with @speaker as |speaker|}}
-  <img class="speaker-details-image" src="{{speaker.avatar}}" alt="{{speaker.name}}">
+  {{#if speaker.avatar}}
+    <img class="speaker-details-image" src="{{speaker.avatar}}" alt="{{speaker.name}}">
+  {{/if}}
   <div class="speaker-details-name">{{speaker.name}}</div>
   <div class="speaker-details-type {{speaker.type}}"></div>
   {{#if speaker.twitterHandle}}
