@@ -1,15 +1,5 @@
 export const SPEAKERS = [
   {
-    name: 'Sean Devine ',
-    twitterHandle: 'barelyknown',
-    avatar: '/assets/images/speakers/sean-devine.jpg',
-    bio: `Sean Devine is the proud father of 5 children, a lucky husband to his amazing wife Theresa, an active Ember/JavaScript (and Rails/Ruby) developer, and the Founder and CEO of XBE - a Construction Logistics business based in Chicago, IL. He's thankful every day that he bet his company on Ember, and is more excited than ever about where things headed. When not working, or parenting, or programming, Sean enjoys running, cycling, and the NBA.`,
-    label: '',
-    type: 'speaker',
-    talkTitle: 'Build One Get Two --- Guide For When To Leverage Corber',
-    id: 1
-  },
-  {
     name: 'Edward Faulkner',
     twitterHandle: 'eaf4',
     avatar: '/assets/images/speakers/ed-faulkner.jpeg',
@@ -17,7 +7,38 @@ export const SPEAKERS = [
     label: '',
     type: 'speaker',
     talkTitle: 'Compiling Ember',
+    id: 1
+  },  
+  {
+    name: 'Marie Chatfield',
+    twitterHandle: 'mariechatfield',
+    avatar: '/assets/images/speakers/marie-chatfield.jpg',
+    bio: 'Marie Chatfield writes code and poetry, sometimes at the same time. As a front-end engineering enthusiast, she’s currently helping the fine folks at Pingboard build the world’s best org chart software. She is passionate about creating inclusive experiences and understanding foundational web technologies at a deeper level. Talk to her about rock climbing or Texas!',
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Don’t Just Put a <div> On It—Use the Power of the Browser!',
     id: 2
+  },
+  {
+    name: 'James Steinbach',
+    twitterHandle: 'jdsteinbach',
+    avatar: '/assets/images/speakers/james-steinbach.png',
+    bio: `James is a senior developer with more than 10 years of front-end experience. If you let him talk, you're liable to get an earful about modular styles, accessible pages, cool CSS tricks, or random restaurant reviews (especially if pizza or BBQ are involved).`,
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Content Choreography: Meaningful Motion in Ember Apps',
+    id: 3
+  },
+
+  {
+    name: 'Jessica Jordan',
+    twitterHandle: 'jjordan_dev',
+    avatar: '/assets/images/speakers/jessica-jordan.jpg',
+    bio: 'Jessica Jordan is a member of the Ember Learning Core team and a software engineer at simplabs. She is an editor at The Ember Times and organizes the Ember Berlin meetup. She is passionate about open-source, CSS, art and comics.',
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Steady State with Ember Octane',
+    id: 4
   },
   {
     name: 'Dan Gebhardt',
@@ -27,26 +48,6 @@ export const SPEAKERS = [
     label: '',
     type: 'speaker',
     talkTitle: 'Worker Power!',
-    id: 3
-  },
-  {
-    name: 'Marie Chatfield',
-    twitterHandle: 'mariechatfield',
-    avatar: '/assets/images/speakers/marie-chatfield.jpg',
-    bio: 'Marie Chatfield writes code and poetry, sometimes at the same time. As a front-end engineering enthusiast, she’s currently helping the fine folks at Pingboard build the world’s best org chart software. She is passionate about creating inclusive experiences and understanding foundational web technologies at a deeper level. Talk to her about rock climbing or Texas!',
-    label: '',
-    type: 'speaker',
-    talkTitle: 'Don’t Just Put a <div> On It—Use the Power of the Browser!',
-    id: 4
-  },
-  {
-    name: ' Lisa Backer',
-    twitterHandle: '',
-    avatar: '/assets/images/speakers/lisa-backer.jpg',
-    bio: 'Lisa is a senior engineer at DockYard, helping large clients integrate Ember.js at scale with a commitment to quality. This commitment has led to a passion for testing. She has 20 years of web development experience ranging from consulting and product development, to helping nonprofit institutions in both paid and volunteer capacities.',
-    label: '',
-    type: 'speaker',
-    talkTitle: 'Mocks, Spies, and Timers - Oh My!',
     id: 5
   },
   {
@@ -59,26 +60,7 @@ export const SPEAKERS = [
     talkTitle: 'Navigating Towards Stronger App Architecture Using Maps',
     id: 6
   },
-  {
-    name: 'James Steinbach',
-    twitterHandle: 'jdsteinbach',
-    avatar: '/assets/images/speakers/james-steinbach.png',
-    bio: `James is a senior developer with more than 10 years of front-end experience. If you let him talk, you're liable to get an earful about modular styles, accessible pages, cool CSS tricks, or random restaurant reviews (especially if pizza or BBQ are involved).`,
-    label: '',
-    type: 'speaker',
-    talkTitle: 'Content Choreography: Meaningful Motion in Ember Apps',
-    id: 7
-  },
-  {
-    name: 'Spencer Price',
-    twitterHandle: '',
-    avatar: '/assets/images/speakers/spencer-price.jpg',
-    bio: `Spencer is an Engineering Manager for Movable Ink in New York City. He has been building applications with Ember for over seven years and has been experimenting with use cases for modifiers ever since they were formally announced in February. Outside of work, you'll find me blocking people's view at Broadway shows, walking my obnoxiously happy dog, or watching good movies.`,
-    label: '',
-    type: 'speaker',
-    talkTitle: 'Modifiers: the Good and the Camp',
-    id: 8
-  },
+  
   {
     name: 'Jen Weber',
     twitterHandle: 'jwwwweber',
@@ -87,7 +69,7 @@ export const SPEAKERS = [
     label: '',
     type: 'speaker',
     talkTitle: 'May I ask a question, LIVE!',
-    id: 9
+    id: 7
   },
   {
     name: 'Preston Sego',
@@ -97,8 +79,39 @@ export const SPEAKERS = [
     label: '',
     type: 'speaker',
     talkTitle: 'May I ask a question, LIVE!',
+    id: 8
+  },
+  {
+    name: 'Spencer Price',
+    twitterHandle: '',
+    avatar: '/assets/images/speakers/spencer-price.jpg',
+    bio: `Spencer is an Engineering Manager for Movable Ink in New York City. He has been building applications with Ember for over seven years and has been experimenting with use cases for modifiers ever since they were formally announced in February. Outside of work, you'll find me blocking people's view at Broadway shows, walking my obnoxiously happy dog, or watching good movies.`,
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Modifiers: the Good and the Camp',
+    id: 9
+  },
+  {
+    name: ' Lisa Backer',
+    twitterHandle: '',
+    avatar: '/assets/images/speakers/lisa-backer.jpg',
+    bio: 'Lisa is a senior engineer at DockYard, helping large clients integrate Ember.js at scale with a commitment to quality. This commitment has led to a passion for testing. She has 20 years of web development experience ranging from consulting and product development, to helping nonprofit institutions in both paid and volunteer capacities.',
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Mocks, Spies, and Timers - Oh My!',
     id: 10
   },
+  {
+    name: 'Sean Devine ',
+    twitterHandle: 'barelyknown',
+    avatar: '/assets/images/speakers/sean-devine.jpg',
+    bio: 'Sean Devine is the proud father of 5 children, a lucky husband to his amazing wife Theresa, an active Ember/JavaScript (and Rails/Ruby) developer, and the Founder and CEO of XBE - a Construction Logistics business based in Chicago, IL. He is thankful every day that he bet his company on Ember, and is more excited than ever about where things headed. When not working, or parenting, or programming, Sean enjoys running, cycling, and the NBA.',
+    label: '',
+    type: 'speaker',
+    talkTitle: 'Build One Get Two --- Guide For When To Leverage Corber',
+    id: 11
+  },
+  
   {
     name: 'Olivia Liddell',
     twitterHandle: 'oliravi',
@@ -107,6 +120,6 @@ export const SPEAKERS = [
     label: '',
     type: 'keynote',
     talkTitle: 'Closing Keynote Speaker',
-    id: 11
-  }
+    id: 12
+  }, 
 ];
