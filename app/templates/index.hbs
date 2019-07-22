@@ -7,21 +7,13 @@
     Chicago, IL 60601
   </p>
 </section>
-
-{{buy-tickets}}
-
 <section>
-  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Details</h2>
   <p>Join us on September 16th, 2019 for the second annual EmberCamp Chicago, where we’ll be hosting 150+ of the world’s top Ember
     developers for a full day of Ember talks.
   </p>
   <p>Whether you want to come enjoy the breathtaking views, make new Ember friends, or get the scoop
     on what's coming next- EmberCamp Chicago is the place to be!</p>
-  <div class="index-images">
-    <img class="index-summary-image" src="/assets/images/chase-tower-skyline.jpg" alt="" role="presentation">
-    <img class="index-summary-image" src="/assets/images/chase-tower-building.jpg" alt="" role="presentation">
-    <img class="index-summary-image" src="/assets/images/chase-tower-skyline-2.jpg" alt="" role="presentation">
-  </div>
+    {{buy-tickets}}
 </section>
 
 <section>
@@ -33,30 +25,30 @@
       </li>
     {{/each}}
   </ul>
-  <a class="button" href="/speakers">Speaker Details</a>
+  <a class="button" href="/speakers">More Speaker Details</a>
 </section>
 
-<section>
-  <h2 class="ribbon ribbon--right ribbon--flipped ribbon--centered">Announcement Signup</h2>
+{{!-- <section>
+  <h2 class="ribbon ribbon--right ribbon--centered">Announcement Signup</h2>
   <p class="text-center">Sign up for EmberCamp 2019 announcements here!!</p>
   <p class="cta"><a class="button" target="_blank" href="https://goo.gl/forms/PAxPYOAYm2pVAxrF3">Sign Up for Announcements</a></p>
-</section>
+</section> --}}
 
-<section>
-  <h2 class="ribbon ribbon--left ribbon--flipped ribbon--centered">Call for Proposals</h2>
+{{!-- <section>
+  <h2 class="ribbon ribbon--left ribbon--centered">Call for Proposals</h2>
   <p>
     The CFP has closed. Check again next year!
   </p>
-</section>
+</section> --}}
 
-{{!--
 
-<section>
+
+{{!-- <section>
   {{program-schedule}}
   {{link-to 'Speaker Details' 'speakers' classNames='schedule-details button'}}
   {{link-to 'Schedule Details' 'program' classNames='schedule-details button'}}
-</section>
+</section> --}}
 
---}}
+
 <br><br>
 {{sponsors-list premierSponsors=model.premierSponsors supportingSponsors=model.supportingSponsors}}
