@@ -7,10 +7,23 @@
           {{{speaker-details speaker=speaker}}}
           <div class="speakers-list-item-info">
             <h3 class="speakers-list-item-title">{{speaker.talkTitle}}</h3>
-            <h4>About {{speaker.name}}:</h4>
-            <p class="speakers-list-item-bio">
-              {{speaker.bio}}
-            </p>
+            {{#if speaker.talkAbstract}}
+            <p>{{speaker.talkAbstract}}</p>
+            <details>
+              <summary>About {{speaker.name}}</summary>
+              <p class="speakers-list-item-bio">
+                {{speaker.bio}}
+              </p>
+            </details>
+            {{else}}
+              <details open>
+                <summary>About {{speaker.name}}</summary>
+                <p class="speakers-list-item-bio">
+                  {{speaker.bio}}
+                </p>
+              </details>
+            {{/if}}
+
           </div>
         </li>
       {{/each}}
