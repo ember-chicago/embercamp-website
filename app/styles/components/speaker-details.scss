@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   list-style: none outside;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   max-width: 90% !important;
   padding: 0;
 }
@@ -12,9 +12,7 @@
 .speaker-list li {
   margin: 1rem;
   text-align: center;
-  width: calc(33% - 2rem);
   @media screen and (max-width: 968px) {
-    width: calc(60% - 2rem);
     padding-bottom: 1.5rem;
     &:not(:last-of-type) {
       border-bottom: 1px solid #d8d8d8;
