@@ -1,5 +1,11 @@
 //Platinum
 export const TIER_ONE_SPONSORS = [
+  {
+    website: 'https://www.chowly.com/',
+    sponsorName: 'Chowly',
+    imageUrl: 'assets/images/sponsors/chowly.png',
+    sponsorText: 'Streamline and integrate third-party delivery orders into your POS.'
+  }
 ];
 
 //Gold
@@ -20,6 +26,17 @@ export const TIER_TWO_SPONSORS = [
 
 //Silver
 export const TIER_THREE_SPONSORS = [
+  {
+    website: 'https://movableink.com/',
+    sponsorName: 'Movable Ink',
+    imageUrl: 'assets/images/sponsors/movable-ink-logo.png',
+    sponsorText: 'The Movable Ink platform enables brands to create personalized visual experiences that are based on relevant data and that are unique for each consumer at every moment.'
+  }, {
+    website: 'https://dockyard.com/',
+    sponsorName: 'Dockyard',
+    imageUrl: 'assets/images/sponsors/dockyard.jpg',
+    sponsorText: 'DockYard is a digital product agency offering exceptional strategy, design, full stack engineering, web app development, and custom software consulting.'
+  }
 ];
 
 //Bronze
