@@ -36,6 +36,11 @@ export const TIER_THREE_SPONSORS = [
     sponsorName: 'Dockyard',
     imageUrl: 'assets/images/sponsors/dockyard.jpg',
     sponsorText: 'DockYard is a digital product agency offering exceptional strategy, design, full stack engineering, web app development, and custom software consulting.'
+  }, {
+    website: 'https://simplabs.com/',
+    sponsorName: 'Simplabs',
+    imageUrl: 'assets/images/sponsors/neu_2.svg',
+    sponsorText: 'Solid Solutions for Ambitious Projects'
   }
 ];
 
@@ -51,6 +56,11 @@ export const TIER_FOUR_SPONSORS = [
     sponsorName: 'Pingboard',
     imageUrl: 'assets/images/sponsors/pingboard-logo-color.svg',
     sponsorText: 'Pingboard is the real-time, collaborative org chart software that makes it easy to organize teams, plan for growth, and keep everyone informed.'
+  }, {
+    website: 'https://www.acornwebconsultants.com',
+    sponsorName: 'Acorn Consulting',
+    imageUrl: 'assets/images/sponsors/acorn_web_consultants.png',
+    sponsorText: 'Offering Western web expertise to clients world-wide'
   }
 
 ];
