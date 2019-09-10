@@ -41,6 +41,11 @@ export const TIER_THREE_SPONSORS = [
     sponsorName: 'Simplabs',
     imageUrl: 'assets/images/sponsors/neu_2.svg',
     sponsorText: 'Solid Solutions for Ambitious Projects'
+  }, {
+    website: 'https://cardstack.com',
+    sponsorName: 'Cardstack',
+    imageUrl: 'assets/images/sponsors/cardstack-logo.png',
+    sponsorText: 'The Cardstack framework allows developers to quickly build modular, interoperable apps, or cards, through an open-source catalog of features and integrations.'
   }
 ];
 
