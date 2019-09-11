@@ -32,7 +32,6 @@ export const SPEAKERS = [
     talkAbstract: 'We naturally invent stories to explain phenomena we can\'t understand. If your app leaves changes "vague," users will make up explanations about how it works. Some developers see animation as a fancy gimmick to slap on at the end of a project. Others want to use it in a helpful way but aren\'t sure how. Both will learn that animation is a meaningful tool and how to use it effectively to reduce user error. In this talk, we\'ll avoid getting in the weeds with addons, JS libraries, or CSS frameworks. Instead we\'ll learn the ways that animation can aid your users and see practical UI examples.',
     id: 3
   },
-
   {
     name: 'Jessica Jordan',
     twitterHandle: 'jjordan_dev',
@@ -56,7 +55,7 @@ export const SPEAKERS = [
     id: 5
   },
   {
-    name: ' Matt Gardner',
+    name: 'Matt Gardner',
     twitterHandle: '',
     avatar: '/assets/images/speakers/matt-gardner.jpg',
     bio: `Matt Gardner is a software engineer for the NYC Department of City Planning. Originally an urban planner, he pivoted into application development after seeing a gap in need for better software in government, specifically in the public advocacy realm. He and his team, Planning Labs, rebuilt the City of New York's digital zoning and land use map using EmberJS.`,
@@ -66,7 +65,6 @@ export const SPEAKERS = [
     talkAbstract: 'Like the cities they represent, interactive maps are complicated feats of engineering. They are resource-intensive microcosms of state management, requiring special data formats and styling specifications. When the needs of an application go beyond showing points on a map, cartographic applications can quickly grow unwieldy and unsustainable. Throw moving targets, messy data, and squeezed timelines into the mix, and you\'ve got an enormous component that does everything – poorly. This talk discusses the latest mapping technology and approaches to building better components - map-based or otherwise.',
     id: 6
   },
-  
   {
     name: 'Jen Weber',
     twitterHandle: 'jwwwweber',
@@ -101,7 +99,7 @@ export const SPEAKERS = [
     id: 9
   },
   {
-    name: ' Lisa Backer',
+    name: 'Lisa Backer',
     twitterHandle: '',
     avatar: '/assets/images/speakers/lisa-backer.jpg',
     bio: 'Lisa is a senior engineer at DockYard, helping large clients integrate Ember.js at scale with a commitment to quality. This commitment has led to a passion for testing. She has 20 years of web development experience ranging from consulting and product development, to helping nonprofit institutions in both paid and volunteer capacities.',
@@ -112,7 +110,7 @@ export const SPEAKERS = [
     id: 10
   },
   {
-    name: 'Sean Devine ',
+    name: 'Sean Devine',
     twitterHandle: 'barelyknown',
     avatar: '/assets/images/speakers/sean-devine.jpg',
     bio: 'Sean Devine is the proud father of 5 children, a lucky husband to his amazing wife Theresa, an active Ember/JavaScript (and Rails/Ruby) developer, and the Founder and CEO of XBE - a Construction Logistics business based in Chicago, IL. He is thankful every day that he bet his company on Ember, and is more excited than ever about where things headed. When not working, or parenting, or programming, Sean enjoys running, cycling, and the NBA.',
@@ -122,7 +120,6 @@ export const SPEAKERS = [
     talkAbstract: '',
     id: 11
   },
-  
   {
     name: 'Olivia Liddell',
     twitterHandle: 'oliravi',
